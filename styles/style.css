@@ -7,5 +7,40 @@
     background-repeat: no-repeat;
     background-size: 250px;
     background-position-x: 100%;
-    background-position-y: 30%;
+    background-position-y: 50px;
+}
+nav{
+    border: 1px solid red;
+}
+nav .logo{
+    /*border: 1px solid red;*/
+    width: 100px;
+    margin-left: 10px;
+}
+nav .nav_links{
+     /*border: 1px solid red;*/
+    margin-left:70px;
+    display: inline-block;
+    vertical-align: top ;
+    margin-top: 23px;
+}
+nav .nav_links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+nav .nav_links li a{
+     /*border: 1px solid red;*/
+    margin:10px;
+    padding:10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:12px ;
+    font-weight:600;
+}
+nav .nav_links li a:hover{
+    color:rgb(252, 84, 7) ;
 }
