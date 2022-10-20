@@ -1,0 +1,11 @@
+.banner{
+    border: 1px solid red;
+    height: 400px;
+    width: 768px;
+    margin: auto;
+    background-image: url(../photos/417-4179680_graphic-design-background-png-png-download-abstract-background-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x: 100%;
+    background-position-y: 30%;
+}
