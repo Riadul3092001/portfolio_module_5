@@ -108,3 +108,6 @@ nav .nav_links li a:hover{
     text-transform: capitalize;
     color: rgb(87, 87, 87);
 }
+.count .body h1:hover{
+    color:#fd6906
+}
