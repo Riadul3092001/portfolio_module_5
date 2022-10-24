@@ -1,16 +1,14 @@
-.banner{
-    border: 1px solid red;
-    height: 400px;
+.banner{   
     width: 768px;
-    margin: auto;
-    background-image: url(../photos/417-4179680_graphic-design-background-png-png-download-abstract-background-removebg-preview.png);
+    margin: 0 auto;
+    background-image: url(../photos/images\ \(3\).jpg);
     background-repeat: no-repeat;
-    background-size: 250px;
+    background-size: 650px;
     background-position-x: 100%;
-    background-position-y: 50px;
+    background-position-y: -48px;
 }
 nav{
-    border: 1px solid red;
+   /* border: 1px solid red;*/
 }
 nav .logo{
     /*border: 1px solid red;*/
@@ -19,7 +17,7 @@ nav .logo{
 }
 nav .nav_links{
      /*border: 1px solid red;*/
-    margin-left:70px;
+    margin-left:10px;
     display: inline-block;
     vertical-align: top ;
     margin-top: 23px;
@@ -43,4 +41,70 @@ nav .nav_links li a{
 }
 nav .nav_links li a:hover{
     color:rgb(252, 84, 7) ;
+}
+.introduce{
+    /*border: 1px solid red;*/
+}
+.introduce .left{
+    /*border: 1px solid red;*/
+    display: inline-block;
+    width: 44.2%;
+    vertical-align: top;
+    padding: 20px;
+}
+.introduce .left h5{
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(77, 74, 74);
+}
+
+.introduce .left h1{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.introduce .left button{
+    height: 30px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight:bold;
+    background: rgb(197,143,219);
+    background: linear-gradient(90deg, rgba(197,143,219,1) 27%, rgba(9,233,194,1) 100%);
+}
+.introduce .left button:hover{
+    color:rgb(252, 7, 7) ;
+}
+.introduce .right{
+    /*border: 1px solid red;*/
+    display: inline-block;
+    width: 30.5%;
+    text-align: right;
+    padding-right: 150px;
+}
+.introduce .right img{
+    width: 200px;
+}
+.count{
+    /*border: 1px solid red;*/
+}
+.count .body{
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+.count .body h1{
+    font-size: 40px ;
+    font-family: sans-serif;
+    background: #2A11CF;
+    background: linear-gradient(to bottom right, #2A11CF 47%, #CF810C 57%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.count .body h6{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: rgb(87, 87, 87);
 }
