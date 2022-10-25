@@ -87,12 +87,17 @@ nav .nav_links li a:hover{
 }
 .count{
     /*border: 1px solid red;*/
+    margin-top: 40px;
 }
 .count .body{
     /*border: 1px solid red;*/
     display: inline-block;
-    margin: 20px;
+    margin-left:60px;
     padding: 20px;
+    width: 130px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #f8bb9f;
 }
 .count .body h1{
     font-size: 40px ;
